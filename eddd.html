@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翔ㄟ鈦螺絲</title>
+    <style>
+        body {
+            background-color: #1F1F1F;
+            color: #E6C200;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3B3B3B;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #FFD700;
+            margin: 0;
+        }
+        nav {
+            background-color: #3B3B3B;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #FFD700;
+            color: #1F1F1F;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product-item {
+            background-color: #3B3B3B;
+            border: 1px solid #4B4B4B;
+            margin: 10px;
+            padding: 15px;
+            flex: 1 1 calc(33% - 20px);
+            box-sizing: border-box;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-item h3 {
+            color: #FFD700;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #3B3B3B;
+            color: #FFFFFF;
+            border: 1px solid #4B4B4B;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #FFD700;
+        }
+        footer {
+            background-color: #3B3B3B;
+            color: #FFD700;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>翔ㄟ鈦螺絲</h1>
+    </header>
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#products">產品</a>
+        <a href="#about">關於我們</a>
+        <a href="#contact">聯繫我們</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>歡迎來到最好的鈦螺絲商店</h2>
+            <p>我們的鈦螺絲以其卓越的強度、輕盈和抗腐蝕性能而聞名。無論是在航太和汽車工業，還是醫療和運動設備，鈦螺絲都是理想的選擇。瀏覽我們的產品，找到最適合您需求的螺絲，體驗鈦金屬的優質性能。</p>
+        </section>
+        <section id="products" class="product">
+            <div class="product-item">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>鈦螺絲型號1</h3>
+                <p>這款鈦螺絲適用於高強度要求的應用。</p>
+                <button>立即購買</button>
+            </div>
+            <div class="product-item">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>鈦螺絲型號2</h3>
+                <p>這款鈦螺絲具有優異的抗腐蝕性能。</p>
+                <button>立即購買</button>
+            </div>
+            <div class="product-item">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>鈦螺絲型號3</h3>
+                <p>這款鈦螺絲輕盈且堅固，適用於多種應用。</p>
+                <button>立即購買</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 翔ㄟ鈦螺絲. All rights reserved.</p>
+    </footer>
+</body>
+</html>
